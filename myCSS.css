@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin : 0;
+    padding : 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+.container-fluid{
+    background-color: black;
+}
+.activ{
+    background-color: white;
+    border-radius:15px;
+    border :1px solid deeppink;
+}
+.active:hover{
+    color:black;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background: deeppink;
+}
+.row, .Logo{
+    color: deeppink;
+}
+.nav-link, .dropdown-item,svg{
+    text-decoration: none;
+    color : deeppink;
+}
+img:hover{
+    transform: scale(1.3);
+}
+.nav-link:hover{
+    color:deeppink;
+    font-size: 25px;
+}
+.btn{
+    color: deeppink;
+    background: #fff;
+    font-weight: bolder;
+    border: 1px solid deeppink;
+}
+
+/*TOUT CECI NE MARCHE PAS IL FAUT INCLURE LA CLASSE shadow-none dans les button
+ button:active:focus{
+    outline:0 !important;
+} */
+
+.btn:hover{
+    color: deeppink;
+    background: #000;
+}
+
+div#alle div{
+    display: inline-block;
+    width: 18%;
+    margin-left: 20px;
+}
+p.nom{
+    font-family: bahnschrift;
+    color: black;
+}
+ p.prix{
+    font-family: bahnschrift;
+    color: deeppink;
+}
+.sep{
+	padding: 3px;
+	background: black;
+}
+.sepa{
+	padding: 3px;
+	background: deeppink;
+}
+div#firstline div,#sndline div{
+    display: inline-block;
+}
+div.ard2 div{
+    margin-left: 35px;
+}
+div.ard3 {
+    margin-left: 80px;
+    width: 22%;}
+div.ard1 {
+    width: 22%;
+}
+div.ard4 {
+    margin-left: 60px;
+    width: 22%;
+}
+div.ard2 {
+    width: 22%;
+}
+div.ard3 div.a3{
+    margin-bottom: 25px;
+}
+div.ard4 div.a4{
+    margin-bottom: 20px;
+}
+div.b1{
+    margin-top: 50px;
+}
+.black{
+    color: black;
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+

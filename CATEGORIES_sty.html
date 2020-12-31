@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous"
+  >
+  <link
+  rel="stylesheet"
+  href="myCSS.css"
+  >
+  <title>School Supplies</title>
+</head>
+<body>
+    <div class="bg-transparent">
+      <div class="container-fluid">
+        <div class="row">
+          <nav class="col navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">
+              <img src="logo.png" width="100" height="60" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item activ dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Produits</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="CATEGORIES Ardoises.html">Ardoises</a>
+                      <a class="dropdown-item" href="CATEGORIES Aquarelles.html">Aquarelles</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="CATEGORIES_Bato.html">Bâtonnets</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="CATEGORIES_cah.html">Cahiers</a>
+                      <a class="dropdown-item" href="CATEGORIES_cis.html">Ciseaux</a>
+                      <a class="dropdown-item" href="CATEGORIES_clas.html">Classeurs</a>
+                      <a class="dropdown-item" href="CATEGORIES_com.html">Compas</a>
+                      <a class="dropdown-item" href="CATEGORIES_craie.html">Craies</a>
+                      <a class="dropdown-item" href="CATEGORIES_crayon.html">Crayons</a>
+                      <a class="dropdown-item" href="CATEGORIES_cdc.html">Coloriage</a>
+                      <a class="dropdown-item" href="CATEGORIES_calc.html">Calculatrices</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="CATEGORIES_feut.html">Feutres</a>
+                      <a class="dropdown-item" href="CATEGORIES_fb.html">Feuille Blanche</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="CATEGORIES_gou.html">Gourdes</a>
+                      <a class="dropdown-item" href="CATEGORIES_mg.html">Géométrie</a>
+                      <div class="dropdown-divider"></div>  
+                      <a class="dropdown-item" href="CATEGORIES_sac.html">Sacs</a>
+                      <a class="dropdown-item" href="CATEGORIES_sty.html">Stylos</a>
+                      <a class="dropdown-item" href="CATEGORIES_sur.html">Surligneurs</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div >
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search ml-5" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                  <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                </svg>
+                <a data-toggle="modal" data-target="#myModal"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle ml-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                  <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                </svg></a>
+                <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Se connecter</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="form mt-3">                    
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Courrier électronique</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <small id="emailHelp" class="form-text text-muted">Votre adresse mail ne sera pas partagée.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Mot de Passe</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group">
+                        <a href="inscription.html">Pas de compte? Inscrivez-vous.</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary shadow-none">Connexion</button>
+                    </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-handbag ml-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 1a2 2 0 0 0-2 2v2h4V3a2 2 0 0 0-2-2zm3 4V3a3 3 0 1 0-6 0v2H3.361a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.356a2.5 2.5 0 0 0 2.472-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 0 0 1 0V6h4z"/>
+                </svg>
+              </div> 
+            </div>
+          </nav>
+        </div>
+      </div>
+	</div>
+	<hr class="sep">
+	<hr class="sepa">
+
+	
+	<center><div id="firstline" class="mt-5">
+		<div class="S1">
+			<img src="images/stylos/BB.jpg" width="200px">
+			<p class="nom">Lot de 4stylos</p>
+			<p class="prix">  350FCFA</p>
+			<button class="btn shadow-none">AJOUTER</button>
+		</div>
+		<div class="S2">
+			<img src="images/stylos/bic7.jpg" width="200px" >
+			<p class="nom">Lot de 14stylos</p>
+			<p class="prix">  1400FCFA</p>
+			<button class="btn shadow-none">AJOUTER</button>
+		</div>
+		<div class="S3">
+			<img src="images/stylos/bic3.png" width="200px">
+			<p class="nom">Stylo 4c</p>
+			<p class="prix">  350FCFA</p>
+			<button class="btn shadow-none">AJOUTER</button>
+		</div>
+		<div class="S4">
+			<img src="images/stylos/styplume.jpg" width="200px">
+			<p class="nom">Stylos plumes</p>
+			<p class="prix">  1500FCFA</p>
+			<button class="btn shadow-none">AJOUTER</button>
+		</div>
+		<div class="S5">
+			<img src="images/stylos/bic4.jpg" width="200px">
+			<p class="nom">Lot de 20stylos</p>
+			<p class="prix">  1800FCFA</p>
+			<button class="btn shadow-none">AJOUTER</button>
+		</div>
+   </div></center>
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script src="myScript.js"></script>
+</body>
+</html>
+
+
+
